@@ -36,12 +36,12 @@ def myCustomKernel(X1, X2):
 h = .02  # step size in the mesh
 
 # we create an instance of SVM with the custom kernel and train it
-print "Training the SVM"
+print ("Training the SVM")
 clf = svm.SVC(kernel=myCustomKernel)
 clf.fit(X, Y)
 
-print ""
-print "Testing the SVM"
+print ("")
+print ("Testing the SVM")
 
 # Plot the decision boundary. For that, we will assign a color to each
 # point in the mesh [x_min, m_max]x[y_min, y_max].
