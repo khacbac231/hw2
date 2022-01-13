@@ -33,7 +33,6 @@ if __name__ == "__main__":
     plt.figure()
     plt.plot(X, y, 'rx')
     plt.title('PolyRegression with d = '+str(d))
-    plt.hold(True)
     plt.plot(xpoints, ypoints, 'b-')
     plt.xlabel('X')
     plt.ylabel('Y')
