@@ -1,8 +1,3 @@
-'''
-    Sample implementation of linear regression using direct computation of the solution
-    AUTHOR Eric Eaton
-'''
-
 import numpy as np
 
 
